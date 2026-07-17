@@ -19,6 +19,7 @@
           "Serilog.AspNetCore": "10.0.0",
           "Serilog.Sinks.File": "7.0.0",
           "Swashbuckle.AspNetCore": "10.1.7",
+          "dotnet06_CybersoftMarketPlace.Application": "1.0.0",
           "dotnet06_CybersoftMarketPlace.Infrastructure": "1.0.0"
         },
         "runtime": {
@@ -996,6 +997,18 @@
           }
         }
       },
+      "dotnet06_CybersoftMarketPlace.Application/1.0.0": {
+        "dependencies": {
+          "BCrypt.Net-Next": "4.2.0",
+          "dotnet06_CybersoftMarketPlace.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "dotnet06_CybersoftMarketPlace.Application.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "dotnet06_CybersoftMarketPlace.Infrastructure/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Proxies": "10.0.8",
@@ -1477,6 +1490,11 @@
       "sha512": "sha512-o94k2RKuAce3GeDMlUvIXlhVa1kWpJw95E6C9LwW0KlG0nj5+SgCiIxJ2Eroqb9sLtG1mEMbFttZIBZ13EJPvQ==",
       "path": "system.security.cryptography.protecteddata/9.0.4",
       "hashPath": "system.security.cryptography.protecteddata.9.0.4.nupkg.sha512"
+    },
+    "dotnet06_CybersoftMarketPlace.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "dotnet06_CybersoftMarketPlace.Infrastructure/1.0.0": {
       "type": "project",

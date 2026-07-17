@@ -1,0 +1,36 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dotnet build*)",
+      "Bash(dotnet restore*)",
+      "Bash(dotnet run*)",
+      "Bash(dotnet test*)",
+      "Bash(dotnet format*)",
+      "Bash(dotnet ef migrations list*)",
+      "Bash(dotnet ef dbcontext*)",
+      "Bash(dotnet --version)",
+      "Bash(dotnet sln list)",
+      "Bash(git status)",
+      "Bash(git diff*)",
+      "Bash(git log*)",
+      "Bash(git branch*)",
+      "Bash(git show*)",
+      "Bash(ls*)",
+      "Bash(find*)",
+      "Bash(grep*)",
+      "Edit(/.claude/skills/new-feature/**)",
+      "Edit(/.claude/skills/ef-migration/**)",
+      "Bash(chmod +x /Volumes/Cybersoft/dotnet06/dotnet06_cybersoftmarketplace/.claude/hooks/check-build.sh)"
+    ],
+    "deny": [
+      "Bash(git push --force*)",
+      "Bash(dotnet ef database drop*)",
+      "Read(**/appsettings.Production.json)"
+    ],
+    "ask": [
+      "Bash(dotnet ef migrations add*)",
+      "Bash(dotnet ef database update*)",
+      "Bash(git push*)"
+    ]
+  }
+}

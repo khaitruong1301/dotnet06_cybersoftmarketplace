@@ -92,18 +92,42 @@ builder.Services.AddScoped<IProductVariantRepository, ProductVariantRepository>(
 builder.Services.AddScoped<IRatingRepository, RatingRepository>();
 builder.Services.AddScoped<IRoleRepository, RoleRepository>();
 builder.Services.AddScoped<IShopRepository, ShopRepository>();
+builder.Services.AddScoped<IUserRoleRepository, UserRoleRepository>();
+
+//DI UnitOfWork
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 
+//DI Service
+builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IProductService, ProductService>();
+
+
+//Khai cors cho fe : http://localhost:5290
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowSpecificOrigin", builder =>
+    {
+        builder.WithOrigins("http://localhost:5290") // Thay đổi URL của FE nếu cần
+               .AllowAnyHeader()
+               .AllowAnyMethod();
+    });
+});
 
 var app = builder.Build();
 
 app.MapControllers();
+
+app.UseCors("AllowSpecificOrigin");
+
+
 
 app.UseSwagger();
 app.UseSwaggerUI(options =>
 {
     options.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
     options.RoutePrefix = string.Empty; // Đặt Swagger UI tại root (http://localhost:<port>/)
+    
 });
 
 app.UseAuthentication(); //Xác thực (đăng nhập)

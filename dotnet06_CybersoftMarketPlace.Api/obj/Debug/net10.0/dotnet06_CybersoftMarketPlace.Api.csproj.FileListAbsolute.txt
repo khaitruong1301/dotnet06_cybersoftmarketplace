@@ -181,3 +181,6 @@
 /Volumes/Cybersoft/dotnet06/dotnet06_cybersoftmarketplace/dotnet06_CybersoftMarketPlace.Api/bin/Debug/net10.0/dotnet06_CybersoftMarketPlace.Api.staticwebassets.runtime.json
 /Volumes/Cybersoft/dotnet06/dotnet06_cybersoftmarketplace/dotnet06_CybersoftMarketPlace.Api/bin/Debug/net10.0/dotnet06_CybersoftMarketPlace.Infrastructure.dll
 /Volumes/Cybersoft/dotnet06/dotnet06_cybersoftmarketplace/dotnet06_CybersoftMarketPlace.Api/bin/Debug/net10.0/dotnet06_CybersoftMarketPlace.Infrastructure.pdb
+/Volumes/Cybersoft/dotnet06/dotnet06_cybersoftmarketplace/dotnet06_CybersoftMarketPlace.Api/obj/Debug/net10.0/dotnet06_CybersoftMarketPlace.Api.sourcelink.json
+/Volumes/Cybersoft/dotnet06/dotnet06_cybersoftmarketplace/dotnet06_CybersoftMarketPlace.Api/bin/Debug/net10.0/dotnet06_CybersoftMarketPlace.Application.dll
+/Volumes/Cybersoft/dotnet06/dotnet06_cybersoftmarketplace/dotnet06_CybersoftMarketPlace.Api/bin/Debug/net10.0/dotnet06_CybersoftMarketPlace.Application.pdb

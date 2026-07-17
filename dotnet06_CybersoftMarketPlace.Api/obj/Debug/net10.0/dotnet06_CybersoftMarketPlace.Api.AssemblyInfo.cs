@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("dotnet06_CybersoftMarketPlace.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1e7a9f10fd987b1751449c9d8e81fa6dedbdf0b4")]
 [assembly: System.Reflection.AssemblyProductAttribute("dotnet06_CybersoftMarketPlace.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("dotnet06_CybersoftMarketPlace.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
